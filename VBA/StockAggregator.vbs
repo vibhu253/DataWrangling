@@ -26,7 +26,7 @@ Sub StockAggregator()
         ReDim volume(sizeunq)                                               'redefining the arrays with the exact size required
         ReDim ticker(sizeunq)
   
-        Do While Not IsEmpty(Range("A" & i).Value)                          'looping through each till the last empty cell in a column using Do While
+        Do While Not IsEmpty(Range("A" & i).Value)                          'looping through each cell till the last empty cell in a column using Do While
             opnprice = Range("C" & i).Value
             Do While Range("A" & i).Value = Range("A" & (i + 1)).Value      'one more nested Do while - to aggregate volume
                 volume(j) = volume(j) + Range("G" & (i)).Value
