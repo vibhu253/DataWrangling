@@ -2,18 +2,18 @@ Sub StockAggregator()
   Dim i         As Long                                                     'Variable Definitions
   Dim j         As Long
   Dim k         As Long
-  Dim sizeunq   As Long
-  Dim pctuptkr  As String
-  Dim pctdwntkr As String
-  Dim vmaxtkr   As String
-  Dim opnprice  As Double
-  Dim cloprice  As Double
-  Dim pctup     As Double
-  Dim pctdwn    As Double
-  Dim vmax      As Double
+  Dim sizeunq   As Long                                                     'no of unique stock tickers in a sheet
+  Dim pctuptkr  As String                                                   
+  Dim pctdwntkr As String                                                   
+  Dim vmaxtkr   As String                                                   
+  Dim opnprice  As Double                                                   'Open Price
+  Dim cloprice  As Double                                                   'Close Price
+  Dim pctup     As Double                                                   'greatest percent up for a tkr
+  Dim pctdwn    As Double                                                   'greatest percent down for a tkr
+  Dim vmax      As Double                                                   'greatest volume
   Dim volume()  As Double                                                   'Arrays declared with no definite value
   Dim ticker()  As String
-  Dim numsheet  As Integer
+  Dim numsheet  As Integer                                                  'worksheet number
   numsheet = Worksheets.count
   For k = 1 To numsheet                                                     'To loop through all the sheets in a workbook using For loop
         Sheets(k).Activate
@@ -23,7 +23,7 @@ Sub StockAggregator()
         pctup = 0
         pctdwn = 0
         vmax = 0
-        ReDim volume(sizeunq)                                               'redefining the arrays with the exact size required
+        ReDim volume(sizeunq)                                               'redefining the arrays with the exact size required using the unique number of tickers
         ReDim ticker(sizeunq)
   
         Do While Not IsEmpty(Range("A" & i).Value)                          'looping through each cell till the last empty cell in a column using Do While
