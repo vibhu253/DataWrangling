@@ -1,5 +1,7 @@
 State abbreviations module has been imported instead of in-line coding in the script
 
+This script will generate a Reformatted output file. It will not print any summary or analysis to the screen since no defined analysis or summary was required for this script per homework instructions
+
 This module reformats the input employee file(csv) and outputs a reformatted file(csv)
 with the following conversions:
 
