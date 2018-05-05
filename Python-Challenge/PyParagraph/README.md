@@ -23,4 +23,4 @@ eg: sample script execution with file names provided
 # $python main.py
 
 
-user enters the txt file name : paragraph_1.txt
+user enters the txt file name when prompted : paragraph_1.txt
