@@ -1,3 +1,5 @@
+State abbreviations module has been imported instead of in-line coding in the script
+
 This module reformats the input employee file(csv) and outputs a reformatted file(csv)
 with the following conversions:
 
