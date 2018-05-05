@@ -25,6 +25,10 @@ This is how the script has to be invoked
 
 # $python main.py
 
+
+when prompted
+
+
 user enters input file name
 
 
