@@ -13,7 +13,7 @@ This module reads voting records(csv) and outputs the following analysis (txt):
 
 # The script will prompt the user to indicate if the input file has a header
 
-There was four input files - 2 original input files
+There are four input files - 2 original input files
                              2 files with same data as input files but with no header
 This is how the script has to be invoked as follows with 2 arguments
 
