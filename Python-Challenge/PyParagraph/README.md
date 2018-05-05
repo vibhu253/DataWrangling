@@ -1,3 +1,6 @@
+This script will print the analysis to the terminal. It WILL NOT generate any output file because.. #Homework instructions
+
+
 This module reads an input file(txt) file and prints the following analysis:
 
 
