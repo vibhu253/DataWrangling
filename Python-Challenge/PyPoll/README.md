@@ -11,7 +11,7 @@ This module reads voting records(csv) and outputs the following analysis (txt):
 
 -The winner
 
-# The script will prompt the user for the file name and to indicate if the input file has a header
+# The script will prompt the user for the input and output file names and to indicate if the input file has a header
 
 There are four input files - 
 
@@ -25,6 +25,10 @@ This is how the script has to be invoked
 
 # $python main.py
 
-user enters file name
+user enters input file name
+
 
 user indicates if the file has header
+
+
+user enters output file name
