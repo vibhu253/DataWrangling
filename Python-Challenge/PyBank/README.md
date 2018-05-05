@@ -12,7 +12,7 @@ There was four input files - 2 original input files
                              2 files with same data as input files but with no header
 This is how the script has to be invoked as follows with 2 arguments
 
-$python main.py <<inputfile>> <<outputfile>>
+$python main.py <<"inputfile">> <<"outputfile">>
 
 inputfile --> is the filename.csv if its in the same directory as the script
 or folder/filename.csv - depending on where the file is located relative to the current script location
