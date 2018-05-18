@@ -1,4 +1,12 @@
 
+# Pyber Ride Sharing
+
+### Analysis
+
+- Rural areas have fewer drivers and this might be causing a higher avg fare but this might not be a direct result and further analysis is needed to arrive a more definite relation.
+- Urban areas have lower avg fares, higher total fare, higher driver count, higher riders so it might worth exploring in detail if a relation exists between the them
+- Urban areas account for almost 2/3rd of all the rides taken and almost 75% of all the drivers
+
 
 ```python
 # import dependencies
@@ -93,7 +101,7 @@ for handle in lgnd.legendHandles:
 ```
 
 
-![png](output_10_0.png)
+![png](output_11_0.png)
 
 
 
@@ -138,7 +146,7 @@ plt.show()
 ```
 
 
-![png](output_14_0.png)
+![png](output_15_0.png)
 
 
 
@@ -177,7 +185,7 @@ plt.show()
 ```
 
 
-![png](output_17_0.png)
+![png](output_18_0.png)
 
 
 
@@ -216,7 +224,7 @@ plt.show()
 ```
 
 
-![png](output_20_0.png)
+![png](output_21_0.png)
 
 
 ## Bubble plot of Ride Sharing Data (using Seaborn)
@@ -238,5 +246,5 @@ plt.show()
 ```
 
 
-![png](output_22_0.png)
+![png](output_23_0.png)
 
